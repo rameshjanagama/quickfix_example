@@ -41,12 +41,4 @@ One third party library needed:
 
 * [quickfix](http://www.quickfixengine.org/) - The QuickFIX Engine.
 
-***NOTE***: I downloaded the sources and build my own QuickFIX Engine library.
-During the `configure` step the file `config.h` is generated. This file is
-included into the example code that comes with the package. It contains `define`
-statements for the various tools the library was built to have support for. For
-example support to store the FIX messages in a database (mySQL, PostgreSQL etc).
-I copied this header file by hand in my `include` directory. You can either do the
-same or just remove the `#include` line. Not sure if it's needed anyway. I just
-kept it to be on the safe side.
 
