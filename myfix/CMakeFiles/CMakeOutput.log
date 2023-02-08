@@ -1,0 +1,984 @@
+The system is: Linux - 4.4.0-19041-Microsoft - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ 
+Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/jramesh1/anaconda3/envs/cpp/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/3.25.0/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-dbKXuc
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1ea67/fast && /usr/bin/make  -f CMakeFiles/cmTC_1ea67.dir/build.make CMakeFiles/cmTC_1ea67.dir/build
+make[1]: Entering directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-dbKXuc'
+Building CXX object CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o
+/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include    -v -o CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o -c /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.4.0 (conda-forge gcc 10.4.0-19) 
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/ -isysroot /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/jramesh1/anaconda3/envs/cpp/include /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o
+GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 10.4.0, GNU assembler version 2.39 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.39
+GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include"
+ignoring nonexistent directory "/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed"
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/jramesh1/anaconda3/envs/cpp/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward
+ /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 10.4.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0fca5b8e4fb11ad6149b2d89dd596e0c
+COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+Linking CXX executable cmTC_1ea67
+/home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ea67.dir/link.txt --verbose=1
+/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/jramesh1/anaconda3/envs/cpp/lib -Wl,-rpath-link,/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/lib -v CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1ea67 
+Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.4.0 (conda-forge gcc 10.4.0-19) 
+COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_1ea67' '-shared-libgcc'
+ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2 -plugin /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMmewbT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1ea67 /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o -L/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0 -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../.. -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/jramesh1/anaconda3/envs/cpp/lib -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/jramesh1/anaconda3/envs/cpp/lib
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_1ea67' '-shared-libgcc'
+make[1]: Leaving directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-dbKXuc'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/jramesh1/anaconda3/envs/cpp/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/include] ==> [/home/jramesh1/anaconda3/envs/cpp/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/jramesh1/anaconda3/envs/cpp/include;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/backward;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-dbKXuc]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_1ea67/fast && /usr/bin/make  -f CMakeFiles/cmTC_1ea67.dir/build.make CMakeFiles/cmTC_1ea67.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-dbKXuc']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include    -v -o CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o -c /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.4.0 (conda-forge gcc 10.4.0-19) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/ -isysroot /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/jramesh1/anaconda3/envs/cpp/include /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.4.0  GNU assembler version 2.39 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.39]
+  ignore line: [GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.4.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0fca5b8e4fb11ad6149b2d89dd596e0c]
+  ignore line: [COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [Linking CXX executable cmTC_1ea67]
+  ignore line: [/home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ea67.dir/link.txt --verbose=1]
+  ignore line: [/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/jramesh1/anaconda3/envs/cpp/lib -Wl -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/lib -v CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1ea67 ]
+  ignore line: [Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.4.0 (conda-forge gcc 10.4.0-19) ]
+  ignore line: [COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_1ea67' '-shared-libgcc']
+  link line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2 -plugin /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMmewbT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1ea67 /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o -L/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0 -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../.. -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/jramesh1/anaconda3/envs/cpp/lib -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/jramesh1/anaconda3/envs/cpp/lib]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMmewbT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1ea67] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--allow-shlib-undefined] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+    arg [CMakeFiles/cmTC_1ea67.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/jramesh1/anaconda3/envs/cpp/lib;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0;/home/jramesh1/anaconda3/envs/cpp/lib/gcc;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+The system is: Linux - 4.4.0-19041-Microsoft - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ 
+Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/jramesh1/anaconda3/envs/cpp/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/3.25.0/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-EUhUox
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ad71b/fast && /usr/bin/make  -f CMakeFiles/cmTC_ad71b.dir/build.make CMakeFiles/cmTC_ad71b.dir/build
+make[1]: Entering directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-EUhUox'
+Building CXX object CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o
+/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include    -v -o CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o -c /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.4.0 (conda-forge gcc 10.4.0-19) 
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/ -isysroot /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/jramesh1/anaconda3/envs/cpp/include /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o
+GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 10.4.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU assembler version 2.39 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.39
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include"
+ignoring nonexistent directory "/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed"
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/jramesh1/anaconda3/envs/cpp/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward
+ /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 10.4.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0fca5b8e4fb11ad6149b2d89dd596e0c
+COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+Linking CXX executable cmTC_ad71b
+/home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad71b.dir/link.txt --verbose=1
+/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/jramesh1/anaconda3/envs/cpp/lib -Wl,-rpath-link,/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/lib -v CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ad71b 
+Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.4.0 (conda-forge gcc 10.4.0-19) 
+COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_ad71b' '-shared-libgcc'
+ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2 -plugin /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccljZknd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ad71b /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o -L/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0 -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../.. -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/jramesh1/anaconda3/envs/cpp/lib -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/jramesh1/anaconda3/envs/cpp/lib
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_ad71b' '-shared-libgcc'
+make[1]: Leaving directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-EUhUox'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/jramesh1/anaconda3/envs/cpp/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/include] ==> [/home/jramesh1/anaconda3/envs/cpp/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/jramesh1/anaconda3/envs/cpp/include;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/backward;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-EUhUox]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_ad71b/fast && /usr/bin/make  -f CMakeFiles/cmTC_ad71b.dir/build.make CMakeFiles/cmTC_ad71b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-EUhUox']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include    -v -o CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o -c /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.4.0 (conda-forge gcc 10.4.0-19) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/ -isysroot /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/jramesh1/anaconda3/envs/cpp/include /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.4.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [GNU assembler version 2.39 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.39]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.4.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0fca5b8e4fb11ad6149b2d89dd596e0c]
+  ignore line: [COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [Linking CXX executable cmTC_ad71b]
+  ignore line: [/home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad71b.dir/link.txt --verbose=1]
+  ignore line: [/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/jramesh1/anaconda3/envs/cpp/lib -Wl -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/lib -v CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ad71b ]
+  ignore line: [Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.4.0 (conda-forge gcc 10.4.0-19) ]
+  ignore line: [COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_ad71b' '-shared-libgcc']
+  link line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2 -plugin /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccljZknd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ad71b /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o -L/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0 -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../.. -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/jramesh1/anaconda3/envs/cpp/lib -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/jramesh1/anaconda3/envs/cpp/lib]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccljZknd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ad71b] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--allow-shlib-undefined] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+    arg [CMakeFiles/cmTC_ad71b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/jramesh1/anaconda3/envs/cpp/lib;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0;/home/jramesh1/anaconda3/envs/cpp/lib/gcc;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+The system is: Linux - 4.4.0-19041-Microsoft - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ 
+Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/jramesh1/anaconda3/envs/cpp/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/3.25.0/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-eYzXti
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7c43d/fast && /usr/bin/make  -f CMakeFiles/cmTC_7c43d.dir/build.make CMakeFiles/cmTC_7c43d.dir/build
+make[1]: Entering directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-eYzXti'
+Building CXX object CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o
+/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include    -v -o CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o -c /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.4.0 (conda-forge gcc 10.4.0-19) 
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/ -isysroot /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/jramesh1/anaconda3/envs/cpp/include /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o
+GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 10.4.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU assembler version 2.39 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.39
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include"
+ignoring nonexistent directory "/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed"
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/jramesh1/anaconda3/envs/cpp/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward
+ /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 10.4.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0fca5b8e4fb11ad6149b2d89dd596e0c
+COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+Linking CXX executable cmTC_7c43d
+/home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c43d.dir/link.txt --verbose=1
+/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/jramesh1/anaconda3/envs/cpp/lib -Wl,-rpath-link,/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/lib -v CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7c43d 
+Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.4.0 (conda-forge gcc 10.4.0-19) 
+COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_7c43d' '-shared-libgcc'
+ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2 -plugin /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5lAuj2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7c43d /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o -L/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0 -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../.. -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/jramesh1/anaconda3/envs/cpp/lib -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/jramesh1/anaconda3/envs/cpp/lib
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_7c43d' '-shared-libgcc'
+make[1]: Leaving directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-eYzXti'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/jramesh1/anaconda3/envs/cpp/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/include] ==> [/home/jramesh1/anaconda3/envs/cpp/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/jramesh1/anaconda3/envs/cpp/include;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/backward;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-eYzXti]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_7c43d/fast && /usr/bin/make  -f CMakeFiles/cmTC_7c43d.dir/build.make CMakeFiles/cmTC_7c43d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-eYzXti']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include    -v -o CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o -c /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.4.0 (conda-forge gcc 10.4.0-19) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/ -isysroot /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/jramesh1/anaconda3/envs/cpp/include /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.4.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [GNU assembler version 2.39 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.39]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.4.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0fca5b8e4fb11ad6149b2d89dd596e0c]
+  ignore line: [COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [Linking CXX executable cmTC_7c43d]
+  ignore line: [/home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c43d.dir/link.txt --verbose=1]
+  ignore line: [/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/jramesh1/anaconda3/envs/cpp/lib -Wl -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/lib -v CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7c43d ]
+  ignore line: [Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.4.0 (conda-forge gcc 10.4.0-19) ]
+  ignore line: [COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_7c43d' '-shared-libgcc']
+  link line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2 -plugin /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5lAuj2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7c43d /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o -L/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0 -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../.. -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/jramesh1/anaconda3/envs/cpp/lib -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/jramesh1/anaconda3/envs/cpp/lib]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5lAuj2.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7c43d] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--allow-shlib-undefined] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+    arg [CMakeFiles/cmTC_7c43d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/jramesh1/anaconda3/envs/cpp/lib;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0;/home/jramesh1/anaconda3/envs/cpp/lib/gcc;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+The system is: Linux - 4.4.0-19041-Microsoft - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ 
+Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/jramesh1/anaconda3/envs/cpp/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/3.25.0/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-L3YBUl
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_764bd/fast && /usr/bin/make  -f CMakeFiles/cmTC_764bd.dir/build.make CMakeFiles/cmTC_764bd.dir/build
+make[1]: Entering directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-L3YBUl'
+Building CXX object CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o
+/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include    -v -o CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o -c /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.4.0 (conda-forge gcc 10.4.0-19) 
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/ -isysroot /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/jramesh1/anaconda3/envs/cpp/include /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o
+GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 10.4.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU assembler version 2.39 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.39
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include"
+ignoring nonexistent directory "/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed"
+ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/jramesh1/anaconda3/envs/cpp/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu
+ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward
+ /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 10.4.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0fca5b8e4fb11ad6149b2d89dd596e0c
+COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+Linking CXX executable cmTC_764bd
+/home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_764bd.dir/link.txt --verbose=1
+/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/jramesh1/anaconda3/envs/cpp/lib -Wl,-rpath-link,/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/lib -v CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_764bd 
+Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs
+could not find specs file conda.specs
+COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.4.0 (conda-forge gcc 10.4.0-19) 
+COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_764bd' '-shared-libgcc'
+ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2 -plugin /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUFHYf4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_764bd /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o -L/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0 -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../.. -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/jramesh1/anaconda3/envs/cpp/lib -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/jramesh1/anaconda3/envs/cpp/lib
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_764bd' '-shared-libgcc'
+make[1]: Leaving directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-L3YBUl'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/jramesh1/anaconda3/envs/cpp/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+    add: [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/include] ==> [/home/jramesh1/anaconda3/envs/cpp/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+  collapse include dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/jramesh1/anaconda3/envs/cpp/include;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/include/c++/10.4.0/backward;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-L3YBUl]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_764bd/fast && /usr/bin/make  -f CMakeFiles/cmTC_764bd.dir/build.make CMakeFiles/cmTC_764bd.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/CMakeScratch/TryCompile-L3YBUl']
+  ignore line: [Building CXX object CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include    -v -o CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o -c /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.4.0 (conda-forge gcc 10.4.0-19) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/ -isysroot /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/jramesh1/anaconda3/envs/cpp/include /home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++17 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.4.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [GNU assembler version 2.39 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.39]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/include-fixed]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/x86_64-conda-linux-gnu]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/../../x86_64-conda-linux-gnu/include/c++/10.4.0/backward]
+  ignore line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (conda-forge gcc 10.4.0-19) version 10.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.4.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0fca5b8e4fb11ad6149b2d89dd596e0c]
+  ignore line: [COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-v' '-o' 'CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [Linking CXX executable cmTC_764bd]
+  ignore line: [/home/jramesh1/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_764bd.dir/link.txt --verbose=1]
+  ignore line: [/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/jramesh1/anaconda3/envs/cpp/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/jramesh1/anaconda3/envs/cpp/lib -Wl -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/lib -v CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_764bd ]
+  ignore line: [Reading specs from /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/specs]
+  ignore line: [could not find specs file conda.specs]
+  ignore line: [COLLECT_GCC=/home/jramesh1/anaconda3/envs/cpp/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1666516817544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/10.4.0 --with-pkgversion='conda-forge gcc 10.4.0-19' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.4.0 (conda-forge gcc 10.4.0-19) ]
+  ignore line: [COMPILER_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++17' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/jramesh1/anaconda3/envs/cpp/include' '-L/home/jramesh1/anaconda3/envs/cpp/lib' '-v' '-o' 'cmTC_764bd' '-shared-libgcc']
+  link line: [ /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2 -plugin /home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUFHYf4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_764bd /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o -L/home/jramesh1/anaconda3/envs/cpp/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0 -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../.. -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/jramesh1/anaconda3/envs/cpp/lib -rpath-link /home/jramesh1/anaconda3/envs/cpp/lib CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o /home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/jramesh1/anaconda3/envs/cpp/lib]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/jramesh1/anaconda3/envs/cpp/bin/../libexec/gcc/x86_64-conda-linux-gnu/10.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUFHYf4.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_764bd] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--allow-shlib-undefined] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+    arg [CMakeFiles/cmTC_764bd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o]
+    arg [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/jramesh1/anaconda3/envs/cpp/lib] ==> ignore
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o]
+  collapse obj [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc] ==> [/home/jramesh1/anaconda3/envs/cpp/lib/gcc]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../lib/gcc/x86_64-conda-linux-gnu/10.4.0/../../..] ==> [/home/jramesh1/anaconda3/envs/cpp/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/jramesh1/anaconda3/envs/cpp/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtbeginS.o;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0/crtendS.o;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/jramesh1/anaconda3/envs/cpp/lib;/home/jramesh1/anaconda3/envs/cpp/lib/gcc/x86_64-conda-linux-gnu/10.4.0;/home/jramesh1/anaconda3/envs/cpp/lib/gcc;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/lib;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/lib;/home/jramesh1/anaconda3/envs/cpp/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+

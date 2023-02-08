@@ -1,0 +1,4 @@
+/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/sor.dir
+/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/test.dir
+/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/edit_cache.dir
+/home/jramesh1/CPP/quickfix_example/myfix/CMakeFiles/rebuild_cache.dir

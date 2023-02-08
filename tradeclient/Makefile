@@ -3,8 +3,8 @@ MF=	Makefile
 
 CC=	g++
 
-CFLAGS=-I$(HOME)/local_software/include
-LFLAGS=-L$(HOME)/local_software/lib -lquickfix
+CFLAGS=-I/home/jramesh1/CPP/quickfix/quickfix/include -I/home/jramesh1/CPP/quickfix/
+LFLAGS=-L/home/jramesh1/CPP/quickfix/quickfix/lib -lquickfix
 PREPROC=
 
 EXE=	prog
