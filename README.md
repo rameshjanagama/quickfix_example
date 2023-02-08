@@ -41,4 +41,29 @@ One third party library needed:
 
 * [quickfix](http://www.quickfixengine.org/) - The QuickFIX Engine.
 
+### Quick Start
+* Start order match engine - acceptor
+```
+(base) jramesh1@DESKTOP-FKNTHRU:~/CPP/quickfix_example/ordermatch$  ./run_ordermatch_acceptor.sh
+<20230208-18:27:27.663239000, FIXT.1.1:ORDERMATCH->CLIENT1, event>
+  (Created session)
+<20230208-18:28:00.290875000, GLOBAL, event>
+  (Accepted connection from 127.0.0.1 on port 5002)
+<20230208-18:28:00.293173000, FIXT.1.1:ORDERMATCH->CLIENT1, incoming>
+  (8=FIXT.1.19=7935=A34=149=CLIENT152=20230208-18:28:00.29056=ORDERMATCH98=0108=301137=710=109)
+<20230208-18:28:00.295174000, FIXT.1.1:ORDERMATCH->CLIENT1, event>
+  (Received logon request)
+ ```
 
+* Start trading client - initiator
+```
+(base) jramesh1@DESKTOP-FKNTHRU:~/CPP/quickfix_example/tradeclient$  ./run_tradeclient_initiator.sh
+
+1) Enter Order
+2) Cancel Order
+3) Replace Order
+4) Market data test
+5) Quit
+Action:
+Logon - FIXT.1.1:CLIENT1->ORDERMATCH
+```
